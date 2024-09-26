@@ -35,6 +35,5 @@ axes[2].set_title('Ticket Price for Pclass 3',fontsize=16)
 axes[2].set_xlabel('PClass',fontsize=12)
 axes[2].set_ylabel('Fare',fontsize=12)
 
-plt.tight_layout()
-plt.show()
+st.pyplot(fig)
 
